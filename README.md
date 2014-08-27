@@ -27,7 +27,7 @@ node node_modules/dmxpro/smoketest.js
 
 ### For testing
 ```sh
-NODE_ENV=production dmxplayer.js
+node dmxplayer.js
 ```
 ### Configure launchd autostart
 
