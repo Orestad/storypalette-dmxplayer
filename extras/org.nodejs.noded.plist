@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>homebrew.nodejs.noded</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/node</string>
+    <string>dmxplayer.js</string>
+    <string>NODE_ENV=production</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>UserName</key>
+  <string>USER</string>
+  <key>WorkingDirectory</key>
+  <string>/Users/USER/storypalette-dmxplayer</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/USER/Documents/nodejs.log</string>
+  <key>StandardOutPath</key>
+  <string>/Users/USER/Documents/nodejs.log</string>
+</dict>
+</plist>
