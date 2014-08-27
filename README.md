@@ -18,12 +18,10 @@ sudo npm install -g grunt-cli
 git clone https://github.com/storypalette/storypalette-dmxplayer.git
 cd storypalette-dmxplayer
 npm install dmxpro
-```
 
-For a quick test that everything is working try
-```sh
+# Connect dmx interface and try it.
 node node_modules/dmxpro/smoketest.js
-``
+```
 
 ## Running
 
