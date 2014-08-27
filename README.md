@@ -20,6 +20,11 @@ cd storypalette-dmxplayer
 npm install dmxpro
 ```
 
+For a quick test that everything is working try
+```sh
+node node_modules/dmxpro/smoketest.js
+``
+
 ## Running
 
 ### For testing
