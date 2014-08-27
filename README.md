@@ -34,7 +34,7 @@ node dmxplayer.js
 ```sh
 sudo cp extras/org.nodejs.noded.plist /Library/LaunchDaemons
 # Edit the plist file for current user.
-vim /Library/LaunchDaemons
+sudo vim /Library/LaunchDaemons/org.nodejs.noded.plist
 sudo launchctl load -w /Library/LaunchDaemons/org.nodejs.noded.plist
 ```
 

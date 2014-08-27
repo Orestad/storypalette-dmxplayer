@@ -8,7 +8,6 @@
   <array>
     <string>/usr/local/bin/node</string>
     <string>dmxplayer.js</string>
-    <string>NODE_ENV=production</string>
   </array>
   <key>RunAtLoad</key>
   <true/>
