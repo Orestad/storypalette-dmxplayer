@@ -31,9 +31,4 @@ io.on('connection', function(socket) {
     console.log('onValueUpdate', value.colour);
     dmx.message(value, room);
   });
-
-  socket.on('reset', function() {
-    console.log('reset');
-    dmx.reset();
-  });
 });
