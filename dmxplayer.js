@@ -15,7 +15,6 @@ var numConns = 0;
 
 io.on('connection', function(socket) {
   console.log('socket', socket.id, 'connected to dmxplayer');
-  console.log(numConns, 'sockets connected');
 
   socket.on('disconnect', function() {
     console.log('dmxplayer disconnected');
